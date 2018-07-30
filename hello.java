@@ -15,7 +15,8 @@ class hello
 		n=sc.nextInt();
 		for(int i=1;i<=n;i++)
 		{
-			System.out.println("hello");
+			System.out.println("Hello");
+			System.out.println("\n");
 		}
 	}
 }
