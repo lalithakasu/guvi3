@@ -17,7 +17,7 @@ class voco
 		}
 		else if((ch>'a'&&ch<='z')||(ch>'A'&&ch<='Z'))
 		{
-			System.out.println("consonant");
+			System.out.println("Consonant");
 		}
 		else
 		{
