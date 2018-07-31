@@ -14,8 +14,8 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		k=sc.nextInt();
-		int res;
-		res=(int)Math.pow(n,k);
-		System.out.println(res);
+		int power;
+		power=(int)Math.pow(n,k);
+		System.out.println(power);
 	}
 }
