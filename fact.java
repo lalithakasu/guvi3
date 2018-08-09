@@ -5,27 +5,20 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class Ideone
+class fact
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int n, c, fact = 1;
- 
-      System.out.println("Enter an integer to calculate it's factorial");
-      Scanner in = new Scanner(System.in);
- 
-      n = in.nextInt();
- 
-      if (n < 0)
-         System.out.println("Number should be non-negative.");
-      else
-      {
-         for (c = 1; c <= n; c++)
-            fact = fact*c;
- 
-         System.out.println("Factorial of "+n+" is = "+fact);
-      }
+		int n;
+		Scanner sc=new Scanner(System.in);
+		n=sc.nextInt();
+		int fact=1;
+		for(i=1;i<=n;i++)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
    }
 }
 	
