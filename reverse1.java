@@ -21,7 +21,7 @@ class reverse1
             num /= 10;
         }
 
-        System.out.println("Reverse Number: " + reverse);
+        System.out.println('reverse');
     }
 
 	
