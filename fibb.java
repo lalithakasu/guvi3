@@ -18,7 +18,7 @@ class fibb
 		int i;	
 		for(i=0;i<n;i++)
 		{
-			System.out.println(t2+" ");
+			System.out.print(t2+" ");
 			sum=t1+t2;
 			t1=t2;
 			t2=sum;
