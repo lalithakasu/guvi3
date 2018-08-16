@@ -12,7 +12,7 @@ class laststr
 		// your code goes here
 		int n,i;
 		Scanner sc=new Scanner(System.in);
-		String str=sc.nextLine();
+		String str=sc.next();
 		n=sc.nextInt();
 	    String res="";
 	    for(i=str.length()-n;i<str.length();i++)
