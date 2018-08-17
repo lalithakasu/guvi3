@@ -11,20 +11,21 @@ class gcd
 	{
 		// your code goes here
 		
-        int N, M ;
+        int a, b;
         Scanner sc=new Scanner(System.in);
-        N=sc.nextInt();
-        M=sc.nextInt();
+        a=sc.nextInt();
+        b=sc.nextInt();
+	int c=0,i;
+	 for(i=0;i<=a&&i<=b;i++)
+	 {
+		 if(a%i==0&&b%i==0)
+		 {
+			 c=i;
+		 }
+	 }
+		
 
-        while(N!= M)
-        {
-            if(N >M)
-                N -= M;
-            else
-                N -= M;
-        }
-
-        System.out.println(N);
+        System.out.println(c);
     }
 }
 
