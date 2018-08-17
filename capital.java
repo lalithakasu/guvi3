@@ -11,9 +11,6 @@ class capital
 	{
 		// your code goes here
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));   
-
-System.out.println("Enter the sentence : ");
-
 try
 {
     String str = br.readLine();
