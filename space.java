@@ -12,7 +12,7 @@ class space
 		// your code goes here
 		int count=0,i;
 		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
+		String s=sc.next();
 		for(i=0;i<s.length();i++)
 		{
 			if(s.charAt(i)==' ')
