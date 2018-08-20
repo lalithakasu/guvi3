@@ -16,7 +16,15 @@ class multiples
 		n=sc.nextInt();
 		for(i=1;i<=5;i++)
 		{
-			System.out.println(n*i+"");
+			if(i==n-1)
+			{
+				System.out.println(n*i);
+			}
+			else
+			{
+			
+				System.out.println(n*i+" ");
+			}
 		}
 	}
 }
