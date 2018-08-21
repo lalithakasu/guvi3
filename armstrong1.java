@@ -26,7 +26,7 @@ class armstrong1
 		}
 		else 
 		{
-		 System.out.println("No");  
+		 System.out.println("no");  
 		}
 	}
 }
