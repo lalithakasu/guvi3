@@ -17,7 +17,14 @@ class prog77
 		{
 			if(n%i==0)
 			{
-			System.out.print(i+" ");
+				if(i==n-1)
+				{
+					System.out.print(i);
+				}
+				else
+				{
+					System.out.print(i+" ");
+				}
 			}
 		}
 	}
