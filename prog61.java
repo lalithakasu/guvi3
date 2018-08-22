@@ -12,7 +12,7 @@ class prog61
 		// your code goes here
 		int n,i;
 		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
+		String s=sc.next();
 		n=sc.nextInt();
 		String str="";
 		for(i=0;i<n;i++)
