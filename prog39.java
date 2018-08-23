@@ -10,6 +10,7 @@ class prog39
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner s=new Scanner(Sysem.in);
 		int[] a=new int[10];
 		int i,j,max=0;
 		for(i=0;i<10;i++)
