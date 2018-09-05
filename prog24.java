@@ -20,8 +20,8 @@ class prog24
 		Arrays.sort(a);
 		for(int i=0;i<n;i++)
 		{
-			System.out.println(a[i]);
-			System.out.println("\n");
+			System.out.println(a[i]+" ");
+			
 		}
 	}
 }
